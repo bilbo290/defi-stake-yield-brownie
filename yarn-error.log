@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\thanapol.s\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @material-ui
+
+PATH: 
+  C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\MATLAB\runtime\win64;E:\MATLAB\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Git\cmd;C:\Users\thanapol.s\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\thanapol.s\AppData\Local\Programs\Python\Python38\;C:\Users\thanapol.s\AppData\Local\Microsoft\WindowsApps;C:\Users\thanapol.s\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\thanapol.s\AppData\Local\GitHubDesktop\bin;C:\Users\thanapol.s\.dotnet\tools;C:\Users\thanapol.s\AppData\Roaming\npm;c:\users\thanapol.s\.local\bin;c:\users\thanapol.s\appdata\roaming\python\python38\scripts;C:\ProgramData\thanapol.s\GitHubDesktop\bin;E:\go-ipfs;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui: Request "https://registry.yarnpkg.com/@material-ui" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\thanapol.s\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67038:18)
+      at Request.self.callback (C:\Users\thanapol.s\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\thanapol.s\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\thanapol.s\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
